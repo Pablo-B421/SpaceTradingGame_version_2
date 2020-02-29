@@ -12,7 +12,9 @@ namespace SpaceTradingGame_version_2
         static void Main(string[] args)
         {
             Status status = new Status();
-            
+            Ship ship = new Ship();
+            Planet planet = new Planet();
+            Ship.ShipInterface(status,planet);
 
             
         }
