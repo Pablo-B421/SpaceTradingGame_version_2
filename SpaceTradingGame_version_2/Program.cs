@@ -11,7 +11,10 @@ namespace SpaceTradingGame_version_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Status status = new Status();
+            
+
+            
         }
     }
 }
